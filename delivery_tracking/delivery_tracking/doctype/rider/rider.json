@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DL-R-{MM}-{YY}-{###}",
+ "creation": "2025-06-18 16:45:13.760631",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user_id",
+  "rider_name",
+  "default_operating_areas"
+ ],
+ "fields": [
+  {
+   "fieldname": "rider_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Rider Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "User ID",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "default_operating_areas",
+   "fieldtype": "Table MultiSelect",
+   "label": "Default Operating Areas",
+   "options": "Area Child"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-06-18 17:25:00.867123",
+ "modified_by": "Administrator",
+ "module": "Delivery Tracking",
+ "name": "Rider",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Rider Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_views": 1
+}

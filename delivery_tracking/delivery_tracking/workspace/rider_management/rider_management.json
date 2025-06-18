@@ -1,0 +1,134 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"xqxLnFFAHH\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Rider Management</span>\",\"col\":12}},{\"id\":\"Jkds5eqOc2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"1UDyVNR43U\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Shortcuts</span>\",\"col\":12}},{\"id\":\"IqenoHycps\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rider\",\"col\":3}},{\"id\":\"uZ48Svrmad\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rider Location\",\"col\":3}},{\"id\":\"q8cuHiKzIs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delivery Tracking Dashboard\",\"col\":3}},{\"id\":\"b1b6koYhe3\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-KnvUQrjbT\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"RdSQKJFTXM\",\"type\":\"card\",\"data\":{\"card_name\":\"Delivery Tracking Management\",\"col\":4}}]",
+ "creation": "2025-06-18 16:44:10.477956",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "assign",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Rider Management",
+ "links": [
+  {
+   "description": "All master related to RMD",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Masters",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "User",
+   "link_count": 0,
+   "link_to": "User",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rider",
+   "link_count": 0,
+   "link_to": "Rider",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Area",
+   "link_count": 0,
+   "link_to": "Area",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "description": "Delivery Tracking Management",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Delivery Tracking Management",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rider",
+   "link_count": 0,
+   "link_to": "Rider",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rider Location",
+   "link_count": 0,
+   "link_to": "Rider Location",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Delivery Tracking Management Dashboard",
+   "link_count": 0,
+   "link_to": "ride-management-dash",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-06-18 17:02:21.195590",
+ "modified_by": "Administrator",
+ "module": "Delivery Tracking",
+ "name": "Rider Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 29.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rider",
+   "link_to": "Rider",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Delivery Tracking Dashboard",
+   "link_to": "ride-management-dash",
+   "type": "Page"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rider Location",
+   "link_to": "Rider Location",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Rider Management"
+}

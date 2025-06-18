@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2025-06-18 16:56:40.251925",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2025-06-18 16:56:40.251925",
+ "modified_by": "Administrator",
+ "module": "Delivery Tracking",
+ "name": "ride-management-dash",
+ "owner": "Administrator",
+ "page_name": "ride-management-dash",
+ "roles": [
+  {
+   "role": "Driver Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 1,
+ "title": "Ride Management Dashboard"
+}
