@@ -258,6 +258,9 @@ fixtures = [
     },
     {
         'dt': "Rider",
+    },
+    {
+        'dt': "Role Profile",
     }
 ]
 
