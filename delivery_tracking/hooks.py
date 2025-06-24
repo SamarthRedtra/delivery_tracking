@@ -243,24 +243,24 @@ app_license = "mit"
 # }
 
 
-fixtures = [
-    {
-        "dt":"User",
-        "filters": [
-            ["name", "not in", ["Administrator", "Guest",]]
-        ]
-    },
-    {
-        "dt": "Area"
-    },
-    {
-        'dt': "Rider Location",
-    },
-    {
-        'dt': "Rider",
-    },
-    {
-        'dt': "Role Profile",
-    }
-]
+# fixtures = [
+#     {
+#         "dt":"User",
+#         "filters": [
+#             ["name", "not in", ["Administrator", "Guest",]]
+#         ]
+#     },
+#     {
+#         "dt": "Area"
+#     },
+#     {
+#         'dt': "Rider Location",
+#     },
+#     {
+#         'dt': "Rider",
+#     },
+#     {
+#         'dt': "Role Profile",
+#     }
+# ]
 
