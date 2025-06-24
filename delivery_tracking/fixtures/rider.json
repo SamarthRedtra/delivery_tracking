@@ -1,0 +1,34 @@
+[
+ {
+  "default_operating_areas": [
+   {
+    "area": "Hadpasar",
+    "parent": "DL-R-06-25-001",
+    "parentfield": "default_operating_areas",
+    "parenttype": "Rider"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Rider",
+  "modified": "2025-06-18 17:24:27.512557",
+  "name": "DL-R-06-25-001",
+  "rider_name": "Sagar Rider",
+  "user_id": "sagar_rider@gmail.com"
+ },
+ {
+  "default_operating_areas": [
+   {
+    "area": "Pune Shaniwar Wada",
+    "parent": "DL-R-06-25-002",
+    "parentfield": "default_operating_areas",
+    "parenttype": "Rider"
+   }
+  ],
+  "docstatus": 0,
+  "doctype": "Rider",
+  "modified": "2025-06-18 17:24:48.513453",
+  "name": "DL-R-06-25-002",
+  "rider_name": "Piyush",
+  "user_id": "piyush_rider@gmail.com"
+ }
+]

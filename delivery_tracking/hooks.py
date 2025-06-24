@@ -255,6 +255,9 @@ fixtures = [
     },
     {
         'dt': "Rider Location",
+    },
+    {
+        'dt': "Rider",
     }
 ]
 
