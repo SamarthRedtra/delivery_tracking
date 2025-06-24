@@ -27,7 +27,6 @@ frappe.pages['ride-management-dash'].on_page_load = function(wrapper) {
             popupAnchor: [0, -32]
         });
 
-        // Initialize Leaflet map
         let map = L.map('map').setView([0, 0], 2);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -38,14 +37,14 @@ frappe.pages['ride-management-dash'].on_page_load = function(wrapper) {
 		frappe.realtime.on("location_broadcast", (data) => {
             let { rider_id, latitude, longitude , rider_name} = data;
             if (markers[rider_id]) {
-                markers[rider_id].setLatLng([latitude, longitude]);
-                markers[rider_id].getPopup().setContent(getPopupContent(rider_id, rider_name, latitude, longitude));
-            } else {
-                markers[rider_id] = L.marker([latitude, longitude], { icon: bikeIcon }).addTo(map)
-                    .bindPopup(getPopupContent(rider_id, rider_name, latitude, longitude), { autoClose: false })
-                    .on('mouseover', function() { this.openPopup(); })
-                    .on('mouseout', function() { this.closePopup(); });
+                map.removeLayer(markers[rider_id]);
             }
+
+            markers[rider_id] = L.marker([latitude, longitude], { icon: bikeIcon }).addTo(map)
+                .bindPopup(getPopupContent(rider_id, rider_name, latitude, longitude), { autoClose: false })
+                .on('mouseover', function() { this.openPopup(); })
+                .on('mouseout', function() { this.closePopup(); });
+
             update_rider_list();
         });
 

@@ -1,0 +1,22 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Rider Location",
+  "latitude": 18.611393208,
+  "longitude": 74.050124745,
+  "modified": "2025-06-24 16:00:35.095757",
+  "name": "72h095a355",
+  "rider_id": "DL-R-06-25-001",
+  "rider_name": "Sagar Rider"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Rider Location",
+  "latitude": 18.490930693,
+  "longitude": 73.759102424,
+  "modified": "2025-06-23 19:40:25.452668",
+  "name": "7b9i94lf2n",
+  "rider_id": "DL-R-06-25-002",
+  "rider_name": "Piyush"
+ }
+]
